@@ -11,6 +11,7 @@ namespace helloworldgit
         static void Main(string[] args)
         {
             // this is a comment
+            // this is the second comment
         }
     }
 }
