@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Collections; //need this for ArrayList
 
 namespace helloworldgit
 {
@@ -10,10 +11,24 @@ namespace helloworldgit
     {
         static void Main(string[] args)
         {
-            // this is a comment
-            // this is the second comment
-            // this is the third comment (made on git itself)
-            // this is the fourth comment (made locally going to push)
+
+            string[] names = { "James", "Dean", "robert" };
+            Array.Sort(names);
+            printNames(names);
+            Array.Reverse(names);
+            printNames(names);
+
+            Console.ReadLine();
         }
+
+        static void printNames(params string[] titles)
+        {
+            foreach (string name in titles)
+            {
+                Console.WriteLine(name);
+            }
+        }
+
+        
     }
 }
