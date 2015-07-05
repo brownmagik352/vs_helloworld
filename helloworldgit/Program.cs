@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Collections; //need this for ArrayList
 
+//this is a console application
 namespace helloworldgit
 {
     class Program
