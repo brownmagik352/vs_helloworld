@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Collections; //need this for ArrayList
 //extra comment to test branch committing
+
+    // THIS IS A CONSOLE APPLICATION
 namespace helloworldgit
 {
     class Program
